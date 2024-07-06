@@ -31,7 +31,7 @@ class Ingles(Persona):
         super().__init__(nombre, edad)
         self.pais = pais
 
-    # Sobrescribir el método hablar_idioma, demostrando polimorfismo
+    # Sobrescribir el método hablar_idioma
     def hablar_idioma(self):
         return "I speak English"
 
